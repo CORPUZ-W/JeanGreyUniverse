@@ -26,6 +26,9 @@
             padding: 10px 0;
         }
 
+
+
+
         nav a {
             margin: 0 25px;
             text-decoration: none;
@@ -141,4 +144,143 @@
         header img {
             margin-right: 10px;
         }
-  
+
+
+
+        body {
+            background: url("Messenger_creation_FD78155C-9B43-4DBA-8E69-68EBA44DCD0B.jpeg") no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color: #111;
+            color: #f6d46b;
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: #7c2414;
+            padding: 15px 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        header img {
+            width: 60px;
+            height: 60px;
+            margin-right: 12px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        nav {
+            background-color: #7c2414;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 0 25px;
+            text-decoration: none;
+            color: #f6d46b;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+        .title-main {
+            text-align: center;
+            font-size: 38px;
+            margin-top: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .phoenix-img {
+            display: block;
+            margin: 30px auto;
+            width: 55%;
+            max-width: 450px;
+            border-radius: 10px;
+            box-shadow: 0 0 25px #ff950066;
+        }
+
+        .box {
+            max-width: 900px;
+            margin: 20px auto;
+            background-color: rgba(0, 0, 0, 0.55);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 25px #ff950055;
+        }
+
+        .box-title {
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .profile-title {
+            text-align: center;
+        }
+
+        .info-list p {
+            font-size: 22px;
+            margin: 10px 0;
+        }
+
+        .abilities-title {
+            margin-top: 40px;
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .abilities-box {
+            max-width: 900px;
+            margin: 20px auto 50px;
+            background-color: rgba(0, 0, 0, 0.55);
+            padding: 25px;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+
+        .abilities-box ul {
+            list-style: square;
+        }
+
+        .quote-box {
+            background-color: #7c2414ce;
+            padding: 20px;
+            max-width: 100%;
+            text-align: center;
+            font-size: 22px;
+            font-style: italic;
+            margin: 0;
+            border-radius: 0;
+        }
+
+        footer {
+            background-color: #7c2414ce;
+            text-align: center;
+            padding: 25px 20px;
+            font-size: 18px;
+            color: #f6d46b;
+            line-height: 1.8;
+            margin: 0;
+        }
+
+        @media(max-width: 900px) {
+            .phoenix-img {
+                width: 80%;
+            }
+            .box, .abilities-box {
+                width: 90%;
+            }
+        }
